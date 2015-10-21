@@ -1,0 +1,16 @@
+<apex:page sidebar="false" showHeader="true" controller="ThreeVotApiController">
+
+  <title>3VOT - 3Vot Corporation</title>
+<link rel="shortcut icon" type="image/x-icon" href="//daulau2emlz5i.cloudfront.net/clay/salesforce_crud_7/assets/favicon.ico"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" media="screen" href="//daulau2emlz5i.cloudfront.net/clay/salesforce_crud_7/assets/bootstrap.css"/>
+<link rel="stylesheet" media="screen" href="//daulau2emlz5i.cloudfront.net/clay/salesforce_crud_7/assets/style.css"/>
+
+
+  
+  <div class="_3vot" id="_3vot_salesforce_crud">
+  </div>
+  
+  <script src="//daulau2emlz5i.cloudfront.net/clay/salesforce_crud_7/3vot.js"></script>
+  
+</apex:page>

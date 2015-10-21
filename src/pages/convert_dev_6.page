@@ -1,0 +1,43 @@
+<apex:page sidebar="false" showHeader="true"  >
+
+	<c:ThreeVotComponent ></c:ThreeVotComponent>
+
+	<head>
+		<!-- Meta, title, CSS, favicons, etc. -->
+		<meta charset="utf-8"></meta>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+
+		<title>Clay for Salesforce.com - Wizards</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" type="text/css" href="//localhost:3000/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="//localhost:3000/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="//localhost:3000/css/menu.css" />
+
+		<script type="text/javascript">
+			window.clay = { path: "//localhost:3000"};
+			//window.Visualforce = {remoting: { Manager: { invokeAction: function(){} } }}
+		</script>
+
+	</head>
+
+	<div id="_3vot_small" class=" _3vot" >
+
+		<div id="app-container" class="main slide-container">
+
+
+
+		</div>
+
+	</div>
+
+	<script>	
+
+	</script>
+
+	<script type="text/javascript" src="//localhost:3000/index.js"></script>
+
+
+
+</apex:page>

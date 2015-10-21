@@ -1,0 +1,697 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [
+        {
+            "properties": [], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [
+                {
+                    "modifiers": [
+                        "public"
+                    ], 
+                    "name": "Testfflib_SObjectSelector", 
+                    "parameters": [], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 10, 
+                        "line": 198
+                    }, 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [
+                        "public"
+                    ], 
+                    "name": "Testfflib_SObjectSelector", 
+                    "parameters": [
+                        {
+                            "type": "Boolean", 
+                            "name": "includeFieldSetFields"
+                        }, 
+                        {
+                            "type": "Boolean", 
+                            "name": "enforceCRUD"
+                        }, 
+                        {
+                            "type": "Boolean", 
+                            "name": "enforceFLS"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 10, 
+                        "line": 203
+                    }, 
+                    "type": null
+                }
+            ], 
+            "namespace": "threevot", 
+            "name": "Testfflib_SObjectSelector", 
+            "tableDeclaration": {
+                "type": "Testfflib_SObjectSelector", 
+                "modifiers": [
+                    "private"
+                ], 
+                "references": [], 
+                "location": {
+                    "column": 16, 
+                    "line": 196
+                }, 
+                "name": "Testfflib_SObjectSelector"
+            }, 
+            "key": null, 
+            "variables": [
+                {
+                    "type": "Boolean", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 44, 
+                        "line": 203
+                    }, 
+                    "name": "includeFieldSetFields"
+                }, 
+                {
+                    "type": "Boolean", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 75, 
+                        "line": 203
+                    }, 
+                    "name": "enforceCRUD"
+                }, 
+                {
+                    "type": "Boolean", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 96, 
+                        "line": 203
+                    }, 
+                    "name": "enforceFLS"
+                }
+            ], 
+            "id": null, 
+            "methods": [
+                {
+                    "modifiers": [
+                        "public"
+                    ], 
+                    "name": "getSObjectFieldList", 
+                    "parameters": [], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 36, 
+                        "line": 208
+                    }, 
+                    "returnType": "LIST", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [
+                        "public"
+                    ], 
+                    "name": "getSObjectType", 
+                    "parameters": [], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 29, 
+                        "line": 218
+                    }, 
+                    "returnType": "SObjectType", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [
+                        "public", 
+                        "override"
+                    ], 
+                    "name": "getOrderBy", 
+                    "parameters": [], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 26, 
+                        "line": 223
+                    }, 
+                    "returnType": "String", 
+                    "type": null
+                }
+            ]
+        }
+    ], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": "threevot", 
+    "name": "fflib_SObjectSelectorTest", 
+    "tableDeclaration": {
+        "type": "fflib_SObjectSelectorTest", 
+        "modifiers": [
+            "private", 
+            "testMethod", 
+            "with sharing"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 28, 
+            "line": 28
+        }, 
+        "name": "fflib_SObjectSelectorTest"
+    }, 
+    "key": "01pi0000006QrrOAAS", 
+    "variables": [
+        {
+            "type": "Testfflib_SObjectSelector", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 33
+            }, 
+            "name": "selector"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 34
+            }, 
+            "name": "fieldList"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 35
+            }, 
+            "name": "fieldSet"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 44
+            }, 
+            "name": "relatedFieldListString"
+        }, 
+        {
+            "type": "Testfflib_SObjectSelector", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 51
+            }, 
+            "name": "selector"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 59
+            }, 
+            "name": "accountList"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 63
+            }, 
+            "name": "idSet"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 64
+            }, 
+            "name": "item"
+        }, 
+        {
+            "type": "Testfflib_SObjectSelector", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 68
+            }, 
+            "name": "selector"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 69
+            }, 
+            "name": "result"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 84
+            }, 
+            "name": "accountList"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 88
+            }, 
+            "name": "idSet"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 89
+            }, 
+            "name": "item"
+        }, 
+        {
+            "type": "Testfflib_SObjectSelector", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 93
+            }, 
+            "name": "selector"
+        }, 
+        {
+            "type": "QueryLocator", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 94
+            }, 
+            "name": "result"
+        }, 
+        {
+            "type": "Iterator", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 95
+            }, 
+            "name": "iteratorResult"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 99
+            }, 
+            "name": "account"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 113
+            }, 
+            "name": "accountList"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 117
+            }, 
+            "name": "idSet"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 118
+            }, 
+            "name": "item"
+        }, 
+        {
+            "type": "User", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 8, 
+                "line": 122
+            }, 
+            "name": "testUser"
+        }, 
+        {
+            "type": "Testfflib_SObjectSelector", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 30, 
+                "line": 127
+            }, 
+            "name": "selector"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 130
+            }, 
+            "name": "result"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 142
+            }, 
+            "name": "accountList"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 146
+            }, 
+            "name": "idSet"
+        }, 
+        {
+            "type": "Account", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 147
+            }, 
+            "name": "item"
+        }, 
+        {
+            "type": "User", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 8, 
+                "line": 151
+            }, 
+            "name": "testUser"
+        }, 
+        {
+            "type": "Testfflib_SObjectSelector", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 30, 
+                "line": 156
+            }, 
+            "name": "selector"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 159
+            }, 
+            "name": "result"
+        }, 
+        {
+            "type": "Testfflib_SObjectSelector", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 170
+            }, 
+            "name": "selector"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 171
+            }, 
+            "name": "soql"
+        }, 
+        {
+            "type": "Testfflib_SObjectSelector", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 178
+            }, 
+            "name": "selector"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 183
+            }, 
+            "name": "fieldListString"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 188
+            }, 
+            "name": "relatedFieldListString"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 235
+            }, 
+            "name": "testProfiles"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 240
+            }, 
+            "name": "testUsername"
+        }, 
+        {
+            "type": "User", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 8, 
+                "line": 241
+            }, 
+            "name": "testUser"
+        }
+    ], 
+    "id": "01pi0000006QrrOAAS", 
+    "methods": [
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testGetFieldListString", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 31
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testGetSObjectName", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 49
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testSelectSObjectsById", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 56
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testQueryLocatorById", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 81
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testAssertIsAccessible", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 111
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testCRUDOff", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 140
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testSOQL", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 168
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static", 
+                "testMethod"
+            ], 
+            "name": "testDefaultConfig", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 176
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "private", 
+                "static"
+            ], 
+            "name": "createChatterExternalUser", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 232
+            }, 
+            "returnType": "User", 
+            "type": null
+        }
+    ]
+}
